@@ -4,8 +4,61 @@
       "id": "1",
       "email": "superadmin@gmail.com",
       "password": "beeasbee333!",
-      "userName": "superAdmin"
+      "userName": "Mary Tessa",
+      "img": "src/components/header/images/girl.jpg"
     }
   ],
-  "user": []
+  "user": [
+    {
+      "id": "1",
+      "email": "superadmin@gmail.com",
+      "password": "beeasbee333!",
+      "userName": "Mary Tessa",
+      "img": "src/components/header/images/girl.jpg"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "img": "src/components/home/categories/images/kolcoM.png",
+      "title": "Кольцo",
+      "gender": "2"
+    },
+    {
+      "id": "2",
+      "img": "src/components/home/categories/images/brasletM.png",
+      "title": "Браслеты",
+      "gender": "2"
+    },
+    {
+      "id": "3",
+      "img": "src/components/home/categories/images/cepM.png",
+      "title": "Цепь",
+      "gender": "2"
+    },
+    {
+      "id": "4",
+      "img": "src/components/home/categories/images/broshF.png",
+      "title": "Брошь",
+      "gender": "1"
+    },
+    {
+      "id": "5",
+      "img": "src/components/home/categories/images/koleF.png",
+      "title": "Колье",
+      "gender": "1"
+    },
+    {
+      "id": "6",
+      "img": "src/components/home/categories/images/kulonF.png",
+      "title": "Кулоны",
+      "gender": "1"
+    },
+    {
+      "id": "7",
+      "img": "src/components/home/categories/images/sergiF.png",
+      "title": "Серьги",
+      "gender": "1"
+    }
+  ]
 }

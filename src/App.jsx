@@ -3,6 +3,7 @@ import Routes from './components/Routes';
 import {useEffect} from "react";
 import {useDispatch, useSelector} from "react-redux";
 import {getUser} from "./redux/slices/userSlice.js";
+import Bg from "./components/backgroundImage/Bg.jsx";
 
 function App() {
     const {loadingUser} = useSelector(state => state.userReducer)
@@ -16,7 +17,9 @@ function App() {
     return (
         <div>
             <Header/>
-            <Routes/>
+          <Bg>
+              <Routes/>
+          </Bg>
         </div>
     );
 }

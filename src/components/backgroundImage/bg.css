@@ -6,7 +6,7 @@
     background-size: cover;
     background-position-y: 26%;
     position: relative;
-    padding: 30px;
+
 }
 .loginDiv:after{
     content: "";
@@ -21,5 +21,5 @@
 
 .loginDiv > * {
     position: relative;
-    z-index: 1; /* կամ ավելի բարձր */
+    z-index: 1;
 }
